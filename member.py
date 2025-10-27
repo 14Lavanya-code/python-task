@@ -1,0 +1,13 @@
+print("----- Family Details -----")
+print("My name is lavanya")
+print("Father's Name: Shanmugam")
+print("Mother's Name: selvi")
+print("Brother's Name: karthik")
+print("Brother's Name: Gokul")
+
+print("----- Friends -----")
+print("1. mathi")
+print("2. Priya")
+print("3. Vino")
+print("4. Princess")
+print("5. janani")
