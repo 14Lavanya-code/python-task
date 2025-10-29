@@ -1,0 +1,93 @@
+print("OPERATORS")
+print("----------")
+a=int(input("enter number1:"))
+b=int(input("enter number2:"))
+c=int(input("enter number3:"))
+print("sum:",a+b)
+print("subtraction:",a-b)
+print("product:",a*b)
+print("division:",a/b)
+print("remainder:",a%b)
+print("square root(a):",a**2)
+print("cube(b):",b**3)
+avg=a+b+c/3
+print("Average",avg)
+print("Swap to numbers ")
+print("------------------")
+s1=input("enter number swap name 1:")
+s2=input("enter number swap name 2:")
+print("Before swapping s1",s1)
+print("Before swapping s2",s2)
+s3=s1
+s1=s2
+s2=s3
+print("After Swapping")
+print("After Swapping s1",s1)
+print("After Swapping s2",s2)
+print("------------------")
+print("Check Datatype:",a, "is",type(a),s1,"is",type(b))
+print("------------------")
+print("Add Integer and Float")
+i=int(input("Enter the integer Value:"))
+f=float(input("Enter the Float Value:"))
+print("add int and float",f,type(f))
+print("------------------")
+print("Relational operator")
+r1=int(input("Enter the integer Value:"))
+r2=int(input("Enter the integer Value:"))
+print("Simple Comprison m1 greater than m2",r1>r2)
+print("Equal Or Not",r1==r2)
+
+print("------------------")
+m1=int(input("mark1:"))
+m2=int(input("mark2:"))
+m3=int(input("mark3:"))
+m4=int(input("mark4:"))
+m5=int(input("mark5:"))
+totm=m1+m2+m3+m4+m5
+avgm=totm/5
+print("Total:",totm ,"\n Average:",avgm)
+print("------------------")
+hours=int(input("enter hours:"))
+minute=hours*60
+print("Hours convert to minute:",minute)
+print("------------------")
+print("Simple Interest")
+p=int(input("Enter principal amount:"))
+n=int(input("Enter year:"))
+r=int(input("Enter rate:"))
+si=(p*n*r)/100
+print("Simple Interest",si)
+print("------------------")
+print("Area of rectangle")
+length=int(input("Enter length:"))
+bre=int(input("Enter breath:"))
+area=length*bre
+print("area of reactable:",area)
+print("------------------")
+
+print("Positive Or Negative")
+pone=int(input("enter number:"))
+print("positive",pone>0,"negative",pone<0,"Zero",pone==0)
+print("------------------")
+print("Total cost")
+name=input("enter product name:")
+amt=int(input("Enter Amount:"))
+qty=int(input("Enter Quantity:"))
+cost=amt*qty
+print("Cost of one item",amt)
+print("Cost of multiple item",cost)
+print("------------------")
+print("Small Calculator ")
+numb1=int(input("enter First Number:"))
+numb2=int(input("enter Second Number:"))
+add=numb1+numb2
+sub=numb1-numb2
+mul=numb1*numb2
+div=numb1/numb2
+print("Addition",add)
+print("Subtraction",sub)
+print("Multiplication",mul)
+print("Divition",div)
+print("--------------------------------")
+
