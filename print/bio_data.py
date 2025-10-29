@@ -1,5 +1,5 @@
 print("BIO-DATA")
-print("---------")
+print("----------")
 print("Name: Lavanya")
 print("Age: 20")
 print("Gender: Female")

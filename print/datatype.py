@@ -1,5 +1,5 @@
 print("Bio-Data")
-print("---------")
+print("----------")
 name="lavanya"
 print("name:",name)
 age=20

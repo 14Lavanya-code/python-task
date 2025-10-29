@@ -1,5 +1,5 @@
 print("School Mark List")
-print("----------------")
+print("-----------------")
 print("Name: Lavanya")
 print("Class 10")
 print("  School: st.Antony's Higher Secondary School")
