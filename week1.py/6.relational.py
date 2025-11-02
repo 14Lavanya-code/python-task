@@ -1,0 +1,10 @@
+print("comparison operator")
+n1=int(input("enter the number1:"))
+n2=int(input("enter the number2:"))
+
+print("n1 Greater than n2:",n1>n2)
+print("n1 less than n2:   ",n1<n2)
+print("n1 Equal to n2:    ",n1==n2)
+print("n1 Not Equal to n2:",n1!=n2)
+print("n1 Greater than Equal to n2:",n1>=n2)
+print("n1 less than Equal to:",n1<=n2)

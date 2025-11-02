@@ -1,0 +1,6 @@
+print("Check Greater or equal")
+a=int(input("Enter the number:"))
+b=int(input("Enter the number:"))
+print("a is greater",a>b)
+print("b is greater",b>a)
+print("both equal",b==a)
