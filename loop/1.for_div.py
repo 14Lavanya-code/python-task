@@ -26,6 +26,9 @@ n=int(input("Enter the table:"))
 for i in range(1,11):
     print(f"{i}*{n}={i*n}")
 
+
+
+
 print("Factorial on given number n ")
 print("===============================")
 fact=1
@@ -33,6 +36,9 @@ fac=int(input("Enter the Number:"))
 for i in range(1,fac+1):
     fact*=i
     print(fact)
+
+
+
 print("Prime Number Between 1 and 50 ")
 print("===============================")
 
@@ -43,6 +49,9 @@ for num in range(2, 51):
     if c == 0:
         print(num)
 print("===============================")
+
+
+
 print("Sum of digit")
 num = 1234
 sum_digits = 0
@@ -57,9 +66,13 @@ print("Sum of digits:", sum_digits)
 print("===============================")
 print("cube")
 for i in range(1, 101):
-    cube_root = round(i ** (1/3))
-    if cube_root ** 3 == i:
+    root = round(i ** (1/3))
+    if root ** 3 == i:
         print(i)
+
+
+for i in range(1,500):
+    if()
 
 print("===============================")
 print("Reverse")
