@@ -71,9 +71,6 @@ for i in range(1, 101):
         print(i)
 
 
-for i in range(1,500):
-    if()
-
 print("===============================")
 print("Reverse")
 num = 123
