@@ -15,9 +15,20 @@ for i in range(rows):
 print("Pattern 3")
 # Pattern 3
 rows = 5
-for i in range(rows):
-    print(chr(65 + i) * (i + 1))
-
+ch = 65
+for i in range(6):
+    for j in range(i+1):
+        print(chr(ch+j), end="")
+    print()    
+    
+print("Pattern 4")
+rows = 5
+ch=65
+for i in range(rows + 1):
+    for j in range(0, i + 1):
+        print(chr(ch+j), end=" ")
+    print()
+    
 print("Number Pattern 1")
 
 rows = 5
